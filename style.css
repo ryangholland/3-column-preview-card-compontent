@@ -102,7 +102,7 @@ img {
 }
 
 .lux-btn {
-  color: --var(--primary-very-dark-cyan);
+  color: var(--primary-very-dark-cyan);
 }
 
 .btn:hover {
