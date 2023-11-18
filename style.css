@@ -110,3 +110,38 @@ img {
   color: var(--neutral-very-light-gray);
   border-color: var(--neutral-very-light-gray);
 }
+
+@media (max-width: 955px) {
+  .main-container {
+    flex-direction: column;
+    max-width: 500px;
+    margin-block: 4rem;
+  }
+
+  .sedans-col {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+  }
+    
+  .lux-col {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-container {
+    max-width: 90%;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .main-col {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
